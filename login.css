@@ -3,9 +3,13 @@ html {
     height: 100%;
 }
 body {
-    background: linear-gradient(45deg, rgba(66, 183, 245, 0.8) 0%, rgba(66, 245, 189, 0.4) 100%);
+    background: url("https://i.ibb.co/s12LykJ/img-1497516894776-0.jpg");
+    /*linear-gradient(45deg, rgba(84, 204, 33, 1) 0%, rgba(79, 79, 79, 1) 100%);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: rgba(0, 0, 0, 0.6);
-    font-family: "Roboto", sans-serif;
+    font-family: "Segoe UI", sans-serif;
     font-size: 14px;
     line-height: 1.6em;
     -webkit-font-smoothing: antialiased;
@@ -24,7 +28,7 @@ body {
 .form {
     z-index: 15;
     position: relative;
-    background: #FFFFFF;
+    background: #4f4f4f;
     width: 600px;
     border-radius: 4px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
@@ -59,7 +63,7 @@ body {
     left: 50%;
     width: 30px;
     height: 4px;
-    background: #4285F4;
+    background: #4F4F4F;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -121,19 +125,19 @@ body {
     color: rgba(0, 0, 0, 0.8);
 }
 .two .form-group input {
-    color: #FFFFFF;
+    color: #4F4F4F;
 }
 .two .form-group input:focus {
     color: #FFFFFF;
 }
 .form-group button {
     outline: none;
-    background: #4285F4;
+    background: #54CC21;
     width: 100%;
     border: 0;
     border-radius: 4px;
     padding: 12px 20px;
-    color: #FFFFFF;
+    color: #4F4F4F;
     font-family: inherit;
     font-size: inherit;
     font-weight: 500;
@@ -142,8 +146,8 @@ body {
     cursor: pointer;
 }
 .two .form-group button {
-    background: #FFFFFF;
-    color: #4285F4;
+    background: #4F4F4F;
+    color: #54CC21;
 }
 .form-group .form-remember {
     font-size: 12px;
@@ -157,7 +161,7 @@ body {
     margin: 0 10px 0 0;
 }
 .form-group .form-recovery {
-    color: #4285F4;
+    color: #54CC21;
     font-size: 12px;
     text-decoration: none;
 }
@@ -183,7 +187,7 @@ body {
     position: absolute;
     top: 0;
     left: 95%;
-    background: #4285F4;
+    background: #54CC21;
     width: 100%;
     min-height: 100%;
     padding: 60px calc(10% + 60px) 60px 60px;
@@ -229,7 +233,7 @@ body {
 }
 .form-header h1 {
     padding: 4px 0;
-    color: #4285F4;
+    color: #54CC21;
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -237,7 +241,7 @@ body {
 .two .form-header h1 {
     position: relative;
     z-index: 40;
-    color: #FFFFFF;
+    color: #4F4F4F;
 }
 .pen-footer {
     display: -webkit-box;
@@ -256,13 +260,8 @@ body {
     text-decoration: none;
     text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
 }
-.pen-footer a .material-icons {
-    width: 12px;
-    margin: 0 5px;
-    vertical-align: middle;
-    font-size: 12px;
-}
+
 .cp-fab {
     background: #FFFFFF !important;
-    color: #4285F4 !important;
+    color: #54CC21 !important;
 }
