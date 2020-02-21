@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    filter: blur(2px);
-    background: url("https://i.ibb.co/s12LykJ/img-1497516894776-0.jpg");
+    background: url("https://i.ibb.co/TgsZg2S/Untitled-4.jpg");
     /*linear-gradient(45deg, rgba(84, 204, 33, 1) 0%, rgba(79, 79, 79, 1) 100%);*/
     background-repeat: no-repeat;
     background-position: center;
@@ -38,6 +37,7 @@ body {
     box-sizing: border-box;
     margin: 100px auto 10px;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form-toggle {
     z-index: 10;
@@ -261,7 +261,7 @@ body {
     color: #FFFFFF;
     font-size: 12px;
     text-decoration: none;
-    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .cp-fab {
