@@ -24,6 +24,6 @@
             $_SESSION['login_user'] = $username; // Initializing Session
             header("location: profile.php"); // Redirecting To Profile Page
         }
-    mysqli_close($conn); // Closing Connection
+        mysqli_close($conn); // Closing Connection
     }
 ?>
