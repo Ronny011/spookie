@@ -13,7 +13,7 @@
         <h1>Account Login</h1>
       </div>
       <div class="form-content">
-        <form>
+        <form action="" method="post">
           <div class="form-group">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required="required" />
@@ -28,7 +28,8 @@
             </label><a class="form-recovery" href="#">Forgot Password?</a>
           </div>
           <div class="form-group">
-            <button type="submit">Log In</button>
+            <input name="submit" type="submit" value=" Login ">
+            <span><?php echo $error; ?></span>
           </div>
         </form>
       </div>
