@@ -1,6 +1,6 @@
 <?php
 // mysqli_connect() function opens a new connection to the MySQL server.
-$conn = mysqli_connect("localhost", "root", "s7562477", "company");
+$conn = mysqli_connect("localhost", "root", "123456", "company");
 session_start();// Starting Session
 // Storing Session
 $user_check = $_SESSION['login_user'];

@@ -11,7 +11,7 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
         // mysqli_connect() function opens a new connection to the MySQL server.
-        $conn = mysqli_connect("localhost", "root", "s7562477", "company");
+        $conn = mysqli_connect("localhost", "root", "123456", "company");
         // SQL query to fetch information of registerd users and finds user match.
         $query = "SELECT username, password from login where username=? AND password=? LIMIT 1";
         // To protect MySQL injection for Security purpose
