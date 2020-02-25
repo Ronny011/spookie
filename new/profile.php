@@ -8,7 +8,7 @@ header("location: index.php"); // Redirecting To Home Page
 <html>
 <head>
 <title>Your Home Page</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="style1.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="profile">
