@@ -1,6 +1,6 @@
 <?php
 session_start([
-    'cookie_lifetime' => 86400,
+    'cookie_lifetime' => 86400,'sid_length' => 22,
 ]);
 $error = ''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
