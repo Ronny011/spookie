@@ -1,5 +1,7 @@
 <?php
-session_start();
+session_start([
+    'cookie_lifetime' => 86400,
+]);
 $error = ''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
 if (empty($_POST['username']) || empty($_POST['password'])) {
