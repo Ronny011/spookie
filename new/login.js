@@ -19,8 +19,7 @@ $(document).ready(function() {
       $('.form-panel.one').removeClass('hidden');
       $('.form-panel.two').removeClass('active');
       $('.form').animate({
-        'height': panelOne
+        'height': panelTwo
       }, 200);
     });
   });
-  
