@@ -29,9 +29,6 @@ header("location: profile.php"); // Redirecting To Profile Page
             <input type="password" id="password" name="password" required="required" />
           </div>
           <div class="form-group">
-            <!--label class="form-remember"-->
-              <!--input type="checkbox" />Remember Me
-            </label><a class="form-recovery" href="#">Forgot Password?</a-->
           </div>
           <div class="form-group">
             <input name="submit" type="submit" value=" Login ">
