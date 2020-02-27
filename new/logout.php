@@ -1,6 +1,6 @@
 <?php
 session_start();
-if(session_unset()){ // Unset All Sessions 
+if(session_destroy()){ // Destroy All Sessions 
 header("Location: index.php"); // Redirecting To Home Page
 }
 ?>
