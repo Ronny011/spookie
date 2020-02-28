@@ -1,7 +1,5 @@
 <?php
-session_start([
-    'sid_length' => 26, 'sid_bits_per_character' => 4, //cookie string will only contaion [0-9a-f]
-]);
+session_start();
 $error = ''; // Variable To Store Error Message
 if (isset($_POST['submit'])) {
 if (empty($_POST['username']) || empty($_POST['password'])) {
