@@ -21,9 +21,11 @@ login_data2 = {
 
 # session
 with requests.Session() as s:
+    cv = ''  # holds the cookie value returned by the server
     r = s.post(url, data=login_data)
 
     for c in s.cookies:
-        sl += c.value
+        cv += c.value
     
-    print("Session is active. Cookie value is: " + sl)
+    print("\nSession is active. Cookie value is: " + cv)
+    input("Press Enter to terminate process")
