@@ -9,13 +9,13 @@ name = 'PHPSESSID'
 
 # user credentials
 login_data = {
-    "username": 'liron',
-    "password": '3232',
+    "username": 'user1',
+    "password": 'password',
     "submit": " Login "
 }
 login_data2 = {
-    "username": 'roni',
-    "password": '123',
+    "username": 'user2',
+    "password": 'password2',
     "submit": " Login "
 }
 
