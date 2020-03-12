@@ -26,6 +26,6 @@ and output the cookie value for testing purposes.
 - [ ] *forgot password* option
 
 #### Links
-[Login page design codepen] (https://codepen.io/andytran/full/GpyKLM)
-[*strgen* library documentation] (https://pypi.org/project/StringGenerator/)
-I reccomend using [WAMP] (https://bitnami.com/stack/wamp/installer) to host the example website
+[Login page design codepen](https://codepen.io/andytran/full/GpyKLM)
+[*strgen* library documentation](https://pypi.org/project/StringGenerator/)
+I reccomend using [WAMP](https://bitnami.com/stack/wamp/installer) to host the example website
