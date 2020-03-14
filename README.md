@@ -20,7 +20,7 @@ You can either use the attached 'session' file or open a tab with a registered a
 The aforementioned file will log in with the given data in the 'login_data' dictionary and will run a background active session
 and output the cookie value for testing purposes. 
 
-- [x] add registration
+- [ ] add registration
 - [ ] dynamic cookie type (more fields and differend sizes)
 - [ ] *remember me* option
 - [ ] *forgot password* option
